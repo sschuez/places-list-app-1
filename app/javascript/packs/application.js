@@ -3,6 +3,9 @@ require("@rails/activestorage").start()
 require("channels")
 
 import "bootstrap";
-import { autocomplete } from '../components/autocomplete';
+import { test, geolocate, fillInAddress, initAutocomplete } from '../components/autocomplete';
 
-autocomplete();
+geolocate();
+fillInAddress();
+initAutocomplete();
+
