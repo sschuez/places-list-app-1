@@ -63,7 +63,7 @@ function geolocate() {
 }
 
 
-export { test, geolocate, fillInAddress, initAutocomplete };
+// export { test, geolocate, fillInAddress, initAutocomplete };
 
 
 
