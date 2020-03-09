@@ -16,7 +16,6 @@ function initAutocomplete() {
   // geographical location types.
   autocomplete = new google.maps.places.Autocomplete(
       document.getElementById('autocomplete'), {types: ['establishment']});
-
   // Avoid paying for data that you don't need by restricting the set of
   // place fields that are returned to just the address components.
   autocomplete.setFields(['address_component']);
@@ -62,8 +61,7 @@ function geolocate() {
   }
 }
 
-
-// export { test, geolocate, fillInAddress, initAutocomplete };
+export { test, geolocate, fillInAddress, initAutocomplete };
 
 
 
